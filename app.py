@@ -75,7 +75,7 @@ def respond(message, chat_history, system, temperature, token_number, gpt_falcon
 # In[4]:
 
 
-openai.api_key = "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"
+openai.api_key = "#####"
 prompt = "Enter Your Query Here"
 def api_calling(prompt):
     completions = openai.Completion.create(
